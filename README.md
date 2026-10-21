@@ -2,6 +2,17 @@
 
 一款 Windows 10 / 11 桌面便签式待办工具：四象限自动排序、颜色标记紧迫程度、支持手动拖拽排序、开机语音播报、托盘常驻，数据只保存在本机。
 
+## 下载
+
+前往 [Releases](https://github.com/a129074174/todo-list/releases/latest) 下载（无需构建环境）：
+
+| 文件 | 说明 |
+| --- | --- |
+| [BossTodo-1.0.0-portable.zip](https://github.com/a129074174/todo-list/releases/download/v1.0.0/BossTodo-1.0.0-portable.zip) | 便携版：解压到任意可写目录，双击 `BossTodo.exe` 运行；请保留 `BossTodo.portable` 标记文件 |
+| [BossTodo-1.0.0-setup.zip](https://github.com/a129074174/todo-list/releases/download/v1.0.0/BossTodo-1.0.0-setup.zip) | 安装版：解压后双击 `BossTodoSetup.exe`，默认安装到 `%LOCALAPPDATA%\Programs\BossTodo`，无需管理员权限 |
+
+安装包未做代码签名，首次运行若出现 SmartScreen 提示，选择“更多信息 → 仍要运行”。
+
 ![主界面](preview/main.png)
 
 ## 主要功能
