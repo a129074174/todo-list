@@ -1,0 +1,17 @@
+# 构建产物（由 build.ps1 生成）
+/build/
+/dist/
+
+# 构建过程中的临时文件
+*.wav
+
+# 运行期数据（便携版可能把数据写到程序目录的 Data\ 下）
+/Data/
+
+# 编辑器 / 系统
+.vs/
+.vscode/
+*.user
+*.suo
+Thumbs.db
+desktop.ini
